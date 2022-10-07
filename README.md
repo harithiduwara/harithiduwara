@@ -14,7 +14,7 @@ The opportunity to learn new skills and working with new technologies, particula
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/iduwara/)](https://www.linkedin.com/in/iduwara/)
 [![Stackoverflow Badge](https://img.shields.io/badge/-Stack%20overflow-FE7A16?style=flat-square&logo=stack-overflow&logoColor=white&link=https://stackoverflow.com/users/19642765/harith-iduwara)](https://stackoverflow.com/users/19642765/harith-iduwara)
 
-- 🌱 I’m currently learning everything 
+<p align="center"> 🌱 I’m currently learning everything </p>
 - 👯 I’m looking to collaborate with other devs
 - ☁ I'm also interests on cloud computing
 
