@@ -15,10 +15,10 @@ The opportunity to learn new skills and working with new technologies, particula
 [![Stackoverflow Badge](https://img.shields.io/badge/-Stack%20overflow-FE7A16?style=flat-square&logo=stack-overflow&logoColor=white&link=https://stackoverflow.com/users/19642765/harith-iduwara)](https://stackoverflow.com/users/19642765/harith-iduwara)
 
 <p align="center"> 🌱 I’m currently learning everything </p>
-- 👯 I’m looking to collaborate with other devs
-- ☁ I'm also interests on cloud computing
+<p align="center"> 👯 I’m looking to collaborate with other devs</p>
+<p align="center"> ☁ I'm also interests on cloud computing</p>
 
-### Languages and Tools:
+<h3 align="center"> Languages and Tools:</h3>
 
 <img align="left" alt="Visual Studio Code" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" style="padding-right:10px;" />
 <img align="left" alt="HTML5" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" style="padding-right:10px;" />
