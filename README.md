@@ -3,6 +3,8 @@
 I am an  undergrad at University of Colombo School of Computing and self-motivated and dynamic individual, who enjoy challenges and achieving goals.
 The opportunity to learn new skills and working with new technologies, particularly interests me.
 
+<hr>
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=harithiduwara&label=Profile%20views&color=0e75b6&style=flat" alt="harithiduwara" /> </p>
 
 ### 📬 Find me at
