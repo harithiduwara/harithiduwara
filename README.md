@@ -8,6 +8,7 @@ The opportunity to learn new skills and working with new technologies, particula
 <hr>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=harithiduwara&label=Profile%20views&color=0e75b6&style=flat" alt="harithiduwara" /> </p>
+<a href="https://twitter.com/harithiduwara" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="harithiduwara" height="25" width="30" /></a>
 
 ### 📬 Find me at
 [![Github Badge](http://img.shields.io/badge/-Github-black?style=flat-square&logo=github&link=https://github.com/harithiduwara/)](https://github.com/harithiduwara/) 
