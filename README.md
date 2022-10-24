@@ -9,6 +9,9 @@ The opportunity to learn new skills and working with new technologies, particula
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=harithiduwara&label=Profile%20views&color=0e75b6&style=flat" alt="harithiduwara" /> </p>
 
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="iduwara" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://lk.linkedin.com/in/iduwara?trk=profile-badge">HARITH IDUWARA</a></div>
+              
+
 
 ### 📬 Find me at
 [![Github Badge](http://img.shields.io/badge/-Github-black?style=flat-square&logo=github&link=https://github.com/harithiduwara/)](https://github.com/harithiduwara/) 
