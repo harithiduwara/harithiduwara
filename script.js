@@ -1,4 +1,4 @@
-/* Jane Doe — CV site interactions */
+/* Harith Iduwara — CV site interactions */
 (function () {
   'use strict';
 
