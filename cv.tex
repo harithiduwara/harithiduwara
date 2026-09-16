@@ -1,0 +1,204 @@
+\documentclass[letterpaper,11pt]{article}
+\renewcommand{\normalsize}{\fontsize{9pt}{11pt}\selectfont}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titrule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{minipage}[t]{0.83\textwidth}
+\begin{tabularx}{\textwidth}{X r}
+  \textbf{\Large Jane Doe} \\
+  {}\\
+  \href{https://www.linkedin.com/in/janedoe/}{LinkedIn} $|$ \href{https://github.com/janedoe}{GitHub} \\
+  Email: \href{mailto:jane.doe@example.com}{jane.doe@example.com} $|$ Phone: \href{tel:+15550199}{+1 (555) 0199}
+\end{tabularx}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.15\textwidth}
+  \begin{tabular}{r}
+    % Replace photo.jpg with your file or comment out this section if not using a photo
+    \includegraphics[width=1.9cm]{photo.jpg}
+  \end{tabular}
+\end{minipage}
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+\resumeSubHeadingListStart
+
+  \item
+  \textbf{Software Engineer} \hfill Jan 2024 -- Present \\
+  \textit{Acme Financial Technologies}, New York, NY
+  \begin{itemize}[leftmargin=*, topsep=2pt]
+    \item \textbf{Core Order Execution -- Buy-Side Platform} \hfill Jun 2025 -- Present
+    \begin{itemize}[leftmargin=*]
+        \item Designed and executed comprehensive test suites for high-frequency resting order workflows, verifying complex validation schemas, edge cases, and continuous integration paths.
+        \item Maintained continuous delivery quality by isolating and correcting core integration failures in alpha releases, reducing regression blockages by over 15\%.
+        \item Validated underlying order structures using end-to-end interface checks, API evaluations, and protocol message assertions.
+    \end{itemize}
+
+    \item \textbf{Quality Systems & Tooling Group} \hfill Jan 2024 -- Jun 2025
+    \begin{itemize}[leftmargin=*]
+        \item Programmed core enhancements for simulation tools checking large-scale metadata and system data engines, lowering execution resource footprints.
+        \item Expanded capabilities for backend financial reconciliation platforms, reducing system configuration gaps.
+        \item Built reusable UI test fixtures across enterprise application modules using Java, Cucumber, and Playwright framework bindings.
+        \item Implemented system integration tests utilizing automated behavioral documentation frameworks to support distributed engineering alignment.
+        \item Automated operational scripts to isolate multi-threaded infrastructure blocks and performance gaps across internal tooling utilities.
+    \end{itemize}
+  \end{itemize}
+  \small{\textbf{Technologies:} Python, Java, Bash, Playwright, C++, Cucumber, FIX Protocol, API Testing}
+
+  \item \vspace{0.5em}
+  \textbf{Software Engineering Intern} \hfill Nov 2022 -- Nov 2023 \\
+  \textit{Stark Data Analytics Solutions}, Boston, MA
+  \begin{itemize}[leftmargin=*, topsep=2pt]
+    \item \textbf{Infrastructure Analytical Platforms} \hfill May 2023 -- Nov 2023
+    \begin{itemize}[leftmargin=*]
+        \item Led proof-of-concept testing to upgrade centralized data management engines; deployed, audited, and configured candidate clusters inside AWS cloud architectures.
+        \item Built administrative and modular components to support dynamic workspace initialization panels.
+    \end{itemize}
+
+    \item \textbf{Database Infrastructure Migration} \hfill Nov 2022 -- May 2023
+    \begin{itemize}[leftmargin=*]
+        \item Contributed to structural database cutovers mapping complex procedural structures from legacy environments into modern relational layouts.
+        \item Analyzed operating constraints and systemic performance indicators using debuggers, memory profilers, and operating system monitors.
+    \end{itemize}
+  \end{itemize}
+  \small{\textbf{Technologies:} Python, Postgres, Apache Atlas, Spark, AWS (EC2, S3), C++, SQL, Bash, GDB}
+
+\resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------------
+\section{Technical Skills}
+\resumeSubHeadingListStart
+  \item \textbf{Languages:} C++, Python, Java, SQL, Bash, Pine Script
+  \item \textbf{Web Development:} PHP, JavaScript, HTML, CSS, ReactJS
+  \item \textbf{Tools \& Technologies:} AWS (EC2, S3), Jenkins, Git, Playwright, Cucumber, FIX Protocol, Postgres, Spark, Apache Atlas
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Gotham University School of Computer Science}{New York, NY}
+    {Bachelor of Science in Computer Science | First Class Honors}{2019 -- 2023}
+  \resumeSubheading
+    {Metropolis Secondary School}{New York, NY}
+    {Advanced Placement Certifications (Calculus, Chemistry, Physics)}{Aug 2018}
+  \resumeSubheading
+    {Metropolis Secondary School}{New York, NY}
+    {Secondary School Diploma}{Dec 2014}
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+\resumeSubHeadingListStart
+  \resumeSubItem{SpeechAssist}
+    {A mobile and web-based solution for treating stammering using DAF and FAF methods. Built with ReactJS. Won Silver at National Innovation Awards 2022.}
+  \resumeSubItem{NexusMarket}
+    {Designed and implemented an online marketplace for freelancers using HTML, CSS, and PHP without the use of external software frameworks.}
+  \resumeSubItem{SignalStream Indicator}
+    {Developed lightweight operational indicators with proprietary scripting languages to graph moving averages dynamically on data chart panels.}
+  \resumeSubItem{ApexDex Interface}
+    {Built automated transaction integrations utilizing system APIs and blockchain SDKs in Python to evaluate decentralised trade executions.}
+  \resumeSubItem{Algorithmic Strategy Engine}
+    {Programmed autonomous trading scripts adjusting to distinct macro trends across financial sandboxes via platform webhooks.}
+  \resumeSubItem{VisionScript Reader}
+    {Constructed alphanumeric vector processing pipelines using spatial segmentation and contour filtering without traditional ML components.}
+\resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS---------------
+\section{Achievements}
+\begin{itemize}[leftmargin=*, itemsep=-2pt]
+  \item \textbf{National Technology Showcase} -- Silver Award for Outstanding Student Enterprise | 2022
+  \item Selected Member, Corporate Cricket Squad competing in Inter-Company Open Leagues | 2022 -- Present
+  \item Represented School First XI Cricket Team as a Senior Athlete | 2012 -- 2016
+  \item Regional Mathematics & Physics Olympiad Invitation -- Merit Rank | 2017
+  \item Media Producer, National Creative Division, Global Student Development Council | 2021 -- 2022
+  \item Elected Officer -- Student Leadership Committee, Academic Institute Association | 2018
+\end{itemize}
+
+%-----------REFERENCES---------------
+\section{References}
+\begin{minipage}[t]{0.48\textwidth}
+  \textbf{John Smith} \\
+  \textit{Principal Architect} \\
+  Acme Financial Technologies \\
+  Email: \href{mailto:john.smith@example.com}{john.smith@example.com} \\
+  Phone: \href{tel:+15550101}{+1 (555) 0101}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+  \textbf{Robert Jones} \\
+  \textit{Engineering Manager} \\
+  Acme Financial Technologies \\
+  Email: \href{mailto:robert.jones@example.com}{robert.jones@example.com} \\
+  Phone: \href{tel:+15550102}{+1 (555) 0102}
+\end{minipage}
+
+\end{document}

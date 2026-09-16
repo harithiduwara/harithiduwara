@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jane Doe — Software Engineer</title>
+  <meta name="description" content="Jane Doe — Software Engineer specializing in test automation, buy-side trading platforms, and data infrastructure." />
+  <meta name="author" content="Jane Doe" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Jane Doe — Software Engineer" />
+  <meta property="og:description" content="Software Engineer specializing in test automation, buy-side trading platforms, and data infrastructure." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%232563eb'/%3E%3Ctext x='50' y='68' font-size='54' font-family='Arial' font-weight='bold' fill='white' text-anchor='middle'%3EJD%3C/text%3E%3C/svg%3E" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <!-- Progress bar -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__brand">JD<span>.</span></a>
+
+      <nav class="nav__links" id="navLinks" aria-label="Primary">
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact" class="nav__cta">Contact</a>
+      </nav>
+
+      <div class="nav__actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme" title="Toggle theme">
+          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__content reveal">
+          <p class="hero__eyebrow">Software Engineer · New York, NY</p>
+          <h1 class="hero__name">Jane Doe</h1>
+          <p class="hero__tagline">
+            Building reliable <strong>trading &amp; data platforms</strong> through
+            rigorous test automation, integration engineering, and clean systems design.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#experience" class="btn btn--primary">View my work</a>
+            <a href="cv.tex" class="btn btn--ghost" download>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download CV source
+            </a>
+          </div>
+
+          <div class="hero__socials">
+            <a href="https://www.linkedin.com/in/janedoe/" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V24h-4V8zm7.5 0h3.8v2.2h.05c.53-1 1.83-2.2 3.77-2.2 4.03 0 4.78 2.65 4.78 6.1V24h-4v-7.1c0-1.7-.03-3.9-2.38-3.9-2.38 0-2.75 1.86-2.75 3.78V24h-4V8z"/></svg>
+            </a>
+            <a href="https://github.com/janedoe" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.3 3.44 9.8 8.2 11.4.6.1.82-.26.82-.58v-2c-3.34.72-4.04-1.6-4.04-1.6-.55-1.38-1.34-1.75-1.34-1.75-1.1-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.5 1 .1-.78.42-1.3.76-1.6-2.66-.3-5.47-1.33-5.47-5.93 0-1.3.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.17 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0C17.3 4.3 18.3 4.62 18.3 4.62c.66 1.65.25 2.87.12 3.17.77.84 1.24 1.92 1.24 3.22 0 4.6-2.82 5.62-5.5 5.92.43.37.82 1.1.82 2.22v3.29c0 .32.22.69.82.57C20.57 22.3 24 17.8 24 12.5 24 5.87 18.63.5 12 .5z"/></svg>
+            </a>
+            <a href="mailto:jane.doe@example.com" aria-label="Email">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__card reveal">
+          <div class="avatar" aria-hidden="true">JD</div>
+          <ul class="hero__facts">
+            <li><span>Role</span><strong>Software Engineer</strong></li>
+            <li><span>Focus</span><strong>Test Automation &amp; Platforms</strong></li>
+            <li><span>Location</span><strong>New York, NY</strong></li>
+            <li><span>Education</span><strong>BSc CS · First Class</strong></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="section__tag">01</span>
+          <h2>Experience</h2>
+          <p>Hands-on across buy-side execution platforms, quality tooling, and data infrastructure.</p>
+        </header>
+
+        <div class="timeline">
+          <!-- Job 1 -->
+          <article class="job reveal">
+            <div class="job__head">
+              <div>
+                <h3>Software Engineer</h3>
+                <p class="job__org">Acme Financial Technologies · New York, NY</p>
+              </div>
+              <span class="job__date">Jan 2024 — Present</span>
+            </div>
+
+            <div class="role">
+              <div class="role__head">
+                <h4>Core Order Execution — Buy-Side Platform</h4>
+                <span>Jun 2025 — Present</span>
+              </div>
+              <ul>
+                <li>Designed and executed comprehensive test suites for high-frequency resting order workflows, verifying complex validation schemas, edge cases, and continuous integration paths.</li>
+                <li>Maintained continuous delivery quality by isolating and correcting core integration failures in alpha releases, reducing regression blockages by over 15%.</li>
+                <li>Validated underlying order structures using end-to-end interface checks, API evaluations, and protocol message assertions.</li>
+              </ul>
+            </div>
+
+            <div class="role">
+              <div class="role__head">
+                <h4>Quality Systems &amp; Tooling Group</h4>
+                <span>Jan 2024 — Jun 2025</span>
+              </div>
+              <ul>
+                <li>Programmed core enhancements for simulation tools checking large-scale metadata and system data engines, lowering execution resource footprints.</li>
+                <li>Expanded capabilities for backend financial reconciliation platforms, reducing system configuration gaps.</li>
+                <li>Built reusable UI test fixtures across enterprise application modules using Java, Cucumber, and Playwright framework bindings.</li>
+                <li>Implemented system integration tests utilizing automated behavioral documentation frameworks to support distributed engineering alignment.</li>
+                <li>Automated operational scripts to isolate multi-threaded infrastructure blocks and performance gaps across internal tooling utilities.</li>
+              </ul>
+            </div>
+
+            <div class="tech">
+              <span class="tech__label">Technologies</span>
+              <div class="chips">
+                <span>Python</span><span>Java</span><span>Bash</span><span>Playwright</span>
+                <span>C++</span><span>Cucumber</span><span>FIX Protocol</span><span>API Testing</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Job 2 -->
+          <article class="job reveal">
+            <div class="job__head">
+              <div>
+                <h3>Software Engineering Intern</h3>
+                <p class="job__org">Stark Data Analytics Solutions · Boston, MA</p>
+              </div>
+              <span class="job__date">Nov 2022 — Nov 2023</span>
+            </div>
+
+            <div class="role">
+              <div class="role__head">
+                <h4>Infrastructure Analytical Platforms</h4>
+                <span>May 2023 — Nov 2023</span>
+              </div>
+              <ul>
+                <li>Led proof-of-concept testing to upgrade centralized data management engines; deployed, audited, and configured candidate clusters inside AWS cloud architectures.</li>
+                <li>Built administrative and modular components to support dynamic workspace initialization panels.</li>
+              </ul>
+            </div>
+
+            <div class="role">
+              <div class="role__head">
+                <h4>Database Infrastructure Migration</h4>
+                <span>Nov 2022 — May 2023</span>
+              </div>
+              <ul>
+                <li>Contributed to structural database cutovers mapping complex procedural structures from legacy environments into modern relational layouts.</li>
+                <li>Analyzed operating constraints and systemic performance indicators using debuggers, memory profilers, and operating system monitors.</li>
+              </ul>
+            </div>
+
+            <div class="tech">
+              <span class="tech__label">Technologies</span>
+              <div class="chips">
+                <span>Python</span><span>Postgres</span><span>Apache Atlas</span><span>Spark</span>
+                <span>AWS (EC2, S3)</span><span>C++</span><span>SQL</span><span>Bash</span><span>GDB</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section section--alt">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="section__tag">02</span>
+          <h2>Technical Skills</h2>
+          <p>Languages and tools I reach for across engineering and quality work.</p>
+        </header>
+
+        <div class="skills">
+          <div class="skill-card reveal">
+            <h3>Languages</h3>
+            <div class="chips">
+              <span>C++</span><span>Python</span><span>Java</span><span>SQL</span><span>Bash</span><span>Pine Script</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Web Development</h3>
+            <div class="chips">
+              <span>PHP</span><span>JavaScript</span><span>HTML</span><span>CSS</span><span>ReactJS</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Tools &amp; Technologies</h3>
+            <div class="chips">
+              <span>AWS (EC2, S3)</span><span>Jenkins</span><span>Git</span><span>Playwright</span>
+              <span>Cucumber</span><span>FIX Protocol</span><span>Postgres</span><span>Spark</span><span>Apache Atlas</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="section__tag">03</span>
+          <h2>Education</h2>
+        </header>
+
+        <div class="edu">
+          <article class="edu__item reveal">
+            <div class="edu__main">
+              <h3>Gotham University — School of Computer Science</h3>
+              <p>Bachelor of Science in Computer Science · First Class Honors</p>
+            </div>
+            <div class="edu__meta">
+              <span>New York, NY</span>
+              <span>2019 — 2023</span>
+            </div>
+          </article>
+          <article class="edu__item reveal">
+            <div class="edu__main">
+              <h3>Metropolis Secondary School</h3>
+              <p>Advanced Placement Certifications (Calculus, Chemistry, Physics)</p>
+            </div>
+            <div class="edu__meta">
+              <span>New York, NY</span>
+              <span>Aug 2018</span>
+            </div>
+          </article>
+          <article class="edu__item reveal">
+            <div class="edu__main">
+              <h3>Metropolis Secondary School</h3>
+              <p>Secondary School Diploma</p>
+            </div>
+            <div class="edu__meta">
+              <span>New York, NY</span>
+              <span>Dec 2014</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section section--alt">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="section__tag">04</span>
+          <h2>Projects</h2>
+          <p>Selected personal and academic builds spanning fintech, web, and computer vision.</p>
+        </header>
+
+        <div class="projects">
+          <article class="project reveal">
+            <div class="project__icon">🗣️</div>
+            <h3>SpeechAssist</h3>
+            <p>A mobile and web-based solution for treating stammering using DAF and FAF methods. Built with ReactJS.</p>
+            <span class="project__badge">🥈 Silver · National Innovation Awards 2022</span>
+          </article>
+          <article class="project reveal">
+            <div class="project__icon">🛒</div>
+            <h3>NexusMarket</h3>
+            <p>Designed and implemented an online marketplace for freelancers using HTML, CSS, and PHP without external software frameworks.</p>
+          </article>
+          <article class="project reveal">
+            <div class="project__icon">📈</div>
+            <h3>SignalStream Indicator</h3>
+            <p>Developed lightweight operational indicators with proprietary scripting languages to graph moving averages dynamically on data chart panels.</p>
+          </article>
+          <article class="project reveal">
+            <div class="project__icon">⛓️</div>
+            <h3>ApexDex Interface</h3>
+            <p>Built automated transaction integrations utilizing system APIs and blockchain SDKs in Python to evaluate decentralised trade executions.</p>
+          </article>
+          <article class="project reveal">
+            <div class="project__icon">🤖</div>
+            <h3>Algorithmic Strategy Engine</h3>
+            <p>Programmed autonomous trading scripts adjusting to distinct macro trends across financial sandboxes via platform webhooks.</p>
+          </article>
+          <article class="project reveal">
+            <div class="project__icon">👁️</div>
+            <h3>VisionScript Reader</h3>
+            <p>Constructed alphanumeric vector processing pipelines using spatial segmentation and contour filtering without traditional ML components.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements -->
+    <section id="achievements" class="section">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="section__tag">05</span>
+          <h2>Achievements</h2>
+        </header>
+
+        <ul class="achievements">
+          <li class="reveal"><span class="dot"></span>National Technology Showcase — Silver Award for Outstanding Student Enterprise <em>· 2022</em></li>
+          <li class="reveal"><span class="dot"></span>Selected Member, Corporate Cricket Squad competing in Inter-Company Open Leagues <em>· 2022 — Present</em></li>
+          <li class="reveal"><span class="dot"></span>Represented School First XI Cricket Team as a Senior Athlete <em>· 2012 — 2016</em></li>
+          <li class="reveal"><span class="dot"></span>Regional Mathematics &amp; Physics Olympiad Invitation — Merit Rank <em>· 2017</em></li>
+          <li class="reveal"><span class="dot"></span>Media Producer, National Creative Division, Global Student Development Council <em>· 2021 — 2022</em></li>
+          <li class="reveal"><span class="dot"></span>Elected Officer — Student Leadership Committee, Academic Institute Association <em>· 2018</em></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section--contact">
+      <div class="container">
+        <div class="contact reveal">
+          <h2>Let's build something reliable.</h2>
+          <p>Open to conversations about engineering, quality, and trading systems.</p>
+          <div class="contact__actions">
+            <a class="btn btn--primary" href="mailto:jane.doe@example.com">jane.doe@example.com</a>
+            <a class="btn btn--ghost" href="tel:+15550199">+1 (555) 0199</a>
+          </div>
+          <div class="hero__socials contact__socials">
+            <a href="https://www.linkedin.com/in/janedoe/" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V24h-4V8zm7.5 0h3.8v2.2h.05c.53-1 1.83-2.2 3.77-2.2 4.03 0 4.78 2.65 4.78 6.1V24h-4v-7.1c0-1.7-.03-3.9-2.38-3.9-2.38 0-2.75 1.86-2.75 3.78V24h-4V8z"/></svg>
+            </a>
+            <a href="https://github.com/janedoe" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.3 3.44 9.8 8.2 11.4.6.1.82-.26.82-.58v-2c-3.34.72-4.04-1.6-4.04-1.6-.55-1.38-1.34-1.75-1.34-1.75-1.1-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.5 1 .1-.78.42-1.3.76-1.6-2.66-.3-5.47-1.33-5.47-5.93 0-1.3.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.17 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0C17.3 4.3 18.3 4.62 18.3 4.62c.66 1.65.25 2.87.12 3.17.77.84 1.24 1.92 1.24 3.22 0 4.6-2.82 5.62-5.5 5.92.43.37.82 1.1.82 2.22v3.29c0 .32.22.69.82.57C20.57 22.3 24 17.8 24 12.5 24 5.87 18.63.5 12 .5z"/></svg>
+            </a>
+            <a href="mailto:jane.doe@example.com" aria-label="Email">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> Jane Doe. Built with HTML &amp; CSS.</p>
+      <a href="#top" class="footer__top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
