@@ -2,7 +2,7 @@ name: Deploy CV site to GitHub Pages
 
 on:
   push:
-    branches: ["main", "my-cv"]
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
