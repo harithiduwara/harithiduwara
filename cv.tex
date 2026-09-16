@@ -37,7 +37,7 @@
 % Sections formatting
 \titleformat{\section}{
   \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titrule \vspace{-5pt}]
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
@@ -75,14 +75,14 @@
 \begin{tabularx}{\textwidth}{X r}
   \textbf{\Large Harith Iduwara} \\
   {}\\
-  \href{https://www.linkedin.com/in/iduwara/}{LinkedIn} $|$ \href{https://github.com/harithiduwara}{GitHub} $|$ \href{https://stackoverflow.com/users/19642765/harith-iduwara}{Stack Overflow} \\
+  \href{https://www.linkedin.com/in/iduwara/}{LinkedIn} $|$ \href{https://github.com/harithiduwara}{GitHub} \\
   Email: \href{mailto:contactharith@gmail.com}{contactharith@gmail.com}
 \end{tabularx}
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.15\textwidth}
   \begin{tabular}{r}
-    % Replace photo.jpg with your file or comment out this section if not using a photo
+    % Add a file named photo.jpg alongside this file to include a headshot
     \includegraphics[width=1.9cm]{photo.jpg}
   \end{tabular}
 \end{minipage}
@@ -93,95 +93,97 @@
 
   \item
   \textbf{Software Engineer} \hfill Jan 2024 -- Present \\
-  \textit{Acme Financial Technologies}, New York, NY
+  \textit{London Stock Exchange Group (LSEG) Technologies}, Malabe, Sri Lanka
   \begin{itemize}[leftmargin=*, topsep=2pt]
-    \item \textbf{Core Order Execution -- Buy-Side Platform} \hfill Jun 2025 -- Present
+    \item \textbf{FXAll -- Buyside8 Team} \hfill Jun 2025 -- Present
     \begin{itemize}[leftmargin=*]
-        \item Designed and executed comprehensive test suites for high-frequency resting order workflows, verifying complex validation schemas, edge cases, and continuous integration paths.
-        \item Maintained continuous delivery quality by isolating and correcting core integration failures in alpha releases, reducing regression blockages by over 15\%.
-        \item Validated underlying order structures using end-to-end interface checks, API evaluations, and protocol message assertions.
+        \item Designed and executed test plans for Fixing Settings and Resting Orders workflows, covering scenario creation, validation, edge-case analysis, and automation integration.
+        \item Investigated and resolved regression failures identified in daily in-sprint test reports for releases 4.0.11 and 4.0.12, improving overall stability and reducing recurring defects.
+        \item Performed extensive UI, API, and FIX message testing to validate order lifecycle behavior and ensure functional accuracy across FXAll workflows.
     \end{itemize}
 
-    \item \textbf{Quality Systems & Tooling Group} \hfill Jan 2024 -- Jun 2025
+    \item \textbf{CMQA -- Tools Team} \hfill Jan 2024 -- Jun 2025
     \begin{itemize}[leftmargin=*]
-        \item Programmed core enhancements for simulation tools checking large-scale metadata and system data engines, lowering execution resource footprints.
-        \item Expanded capabilities for backend financial reconciliation platforms, reducing system configuration gaps.
-        \item Built reusable UI test fixtures across enterprise application modules using Java, Cucumber, and Playwright framework bindings.
-        \item Implemented system integration tests utilizing automated behavioral documentation frameworks to support distributed engineering alignment.
-        \item Automated operational scripts to isolate multi-threaded infrastructure blocks and performance gaps across internal tooling utilities.
+        \item Developed and enhanced the Model-Based Testing (MBT) tool to validate reference data and FX matching systems, improving accuracy and maintainability.
+        \item Analyzed and developed features for the FX Reconciliation Tool, enhancing reliability and reducing reconciliation gaps.
+        \item Contributed to the FX Credit GUI Test Automation framework using Java, Cucumber, and Playwright to increase automation stability and reduce manual QA workload.
+        \item Developed and maintained functionality in the Fortress2 testing tool using BDD practices to streamline cross-team collaboration.
+        \item Built utility scripts to improve performance and workflow efficiency across MBT, Sailfish, and Reconciliation systems.
     \end{itemize}
   \end{itemize}
   \small{\textbf{Technologies:} Python, Java, Bash, Playwright, C++, Cucumber, FIX Protocol, API Testing}
 
   \item \vspace{0.5em}
   \textbf{Software Engineering Intern} \hfill Nov 2022 -- Nov 2023 \\
-  \textit{Stark Data Analytics Solutions}, Boston, MA
+  \textit{London Stock Exchange Group (LSEG) Technologies}, Malabe, Sri Lanka
   \begin{itemize}[leftmargin=*, topsep=2pt]
-    \item \textbf{Infrastructure Analytical Platforms} \hfill May 2023 -- Nov 2023
+    \item \textbf{LSEG Surveillance Analytics} \hfill May 2023 -- Nov 2023
     \begin{itemize}[leftmargin=*]
-        \item Led proof-of-concept testing to upgrade centralized data management engines; deployed, audited, and configured candidate clusters inside AWS cloud architectures.
-        \item Built administrative and modular components to support dynamic workspace initialization panels.
+        \item Researched and evaluated the feasibility of upgrading Apache Atlas from 2.1.0 to 2.3.0; successfully deployed and configured Atlas in an AWS EC2 environment.
+        \item Contributed to the development of the Configuration Module within the LSEG Surveillance Analytics platform.
     \end{itemize}
 
-    \item \textbf{Database Infrastructure Migration} \hfill Nov 2022 -- May 2023
+    \item \textbf{FX Surveillance Postgres Cutover} \hfill Nov 2022 -- May 2023
     \begin{itemize}[leftmargin=*]
-        \item Contributed to structural database cutovers mapping complex procedural structures from legacy environments into modern relational layouts.
-        \item Analyzed operating constraints and systemic performance indicators using debuggers, memory profilers, and operating system monitors.
+        \item Supported the migration of the FX Surveillance system's database layer from Oracle to Postgres.
+        \item Engaged in low-level debugging and system performance monitoring using C++, SQL, Bash, GDB, and Sysguard.
     \end{itemize}
   \end{itemize}
-  \small{\textbf{Technologies:} Python, Postgres, Apache Atlas, Spark, AWS (EC2, S3), C++, SQL, Bash, GDB}
+  \small{\textbf{Technologies:} Python, Postgres, Apache Atlas, Spark, AWS (EC2, S3), C++, SQL, Bash, GDB, Sysguard}
 
 \resumeSubHeadingListEnd
 
-%-----------TECHNICAL SKILLS-----------------
-\section{Technical Skills}
+%-----------ACHIEVEMENTS---------------
+\section{Achievements}
+\begin{itemize}[leftmargin=*, itemsep=-2pt]
+  \item \href{https://www.linkedin.com/posts/iduwara_nbqsa-srilanka-ict-activity-6994599226454282240-XTe1}{\textbf{National ICT Awards (NBQSA)} -- Silver, Tertiary Student Technology} | 2022
+  \item Represented the \textbf{LSEG Cricket Team} at the Mercantile Cricket Tournament | 2022 -- Present
+  \item Represented the \textbf{D. S. Senanayake College} Cricket Team | 2012 -- 2016
+  \item Sri Lankan \textbf{Physics Olympiad} Competition -- Merit | 2017
+  \item Videographer, National Showcasing Team, \textbf{AIESEC Sri Lanka} | 2021 -- 2022
+  \item Committee Member, Student Council, Wisdom Business Academy | 2018
+  \item Marketing Member, AIESEC Colombo Central | 2021
+  \item \textbf{Head of Photography}, Pahasara UCSC | 2020 -- 2022
+\end{itemize}
+
+%-----------PROJECTS-----------------
+\section{Projects}
 \resumeSubHeadingListStart
-  \item \textbf{Languages:} C++, Python, Java, SQL, Bash, Pine Script
-  \item \textbf{Web Development:} PHP, JavaScript, HTML, CSS, ReactJS
-  \item \textbf{Tools \& Technologies:} AWS (EC2, S3), Jenkins, Git, Playwright, Cucumber, FIX Protocol, Postgres, Spark, Apache Atlas
+  \resumeSubItem{SpeechAssist}
+    {A mobile and web-based solution for treating stammering using DAF and FAF methods. Built with ReactJS. Won Silver at NBQSA 2022.}
+  \resumeSubItem{Wadak}
+    {An online marketplace for freelancers, designed and implemented using HTML, CSS, and PHP without the use of any framework.}
+  \resumeSubItem{TradingView Indicator}
+    {An indicator using Pine Script to visualise EMAs on TradingView charts.}
+  \resumeSubItem{TG-DEX}
+    {A TG-DEX trader built with the Telegram API and Solana SDK in Python to trade on Solana DEXes as a hobby project.}
+  \resumeSubItem{Algorithmic Bots}
+    {Algorithmic bots that trade currencies across different market conditions. Strategies currently run in 3Commas, with AI features planned for the future.}
+  \resumeSubItem{Handwritten Character Recogniser}
+    {Used thresholding, contour detection, and feature extraction to preprocess and analyze handwritten characters without using machine learning techniques.}
 \resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------------
 \section{Education}
 \resumeSubHeadingListStart
   \resumeSubheading
-    {Gotham University School of Computer Science}{New York, NY}
-    {Bachelor of Science in Computer Science | First Class Honors}{2019 -- 2023}
+    {University of Colombo School of Computing}{Colombo, Sri Lanka}
+    {Bachelor of Science in Computer Science | Second Class Upper Division}{2019 -- 2023}
   \resumeSubheading
-    {Metropolis Secondary School}{New York, NY}
-    {Advanced Placement Certifications (Calculus, Chemistry, Physics)}{Aug 2018}
+    {D. S. Senanayake College}{Colombo, Sri Lanka}
+    {GCE Advanced Levels; Combined Maths (A), Chemistry (A), Physics (B)}{Aug 2018}
   \resumeSubheading
-    {Metropolis Secondary School}{New York, NY}
-    {Secondary School Diploma}{Dec 2014}
+    {D. S. Senanayake College}{Colombo, Sri Lanka}
+    {GCE Ordinary Levels; 8 A's, 1 B}{Dec 2014}
 \resumeSubHeadingListEnd
 
-%-----------PROJECTS-----------------
-\section{Projects}
+%-----------TECHNICAL SKILLS-----------------
+\section{Technical Skills}
 \resumeSubHeadingListStart
-  \resumeSubItem{SpeechAssist}
-    {A mobile and web-based solution for treating stammering using DAF and FAF methods. Built with ReactJS. Won Silver at National Innovation Awards 2022.}
-  \resumeSubItem{NexusMarket}
-    {Designed and implemented an online marketplace for freelancers using HTML, CSS, and PHP without the use of external software frameworks.}
-  \resumeSubItem{SignalStream Indicator}
-    {Developed lightweight operational indicators with proprietary scripting languages to graph moving averages dynamically on data chart panels.}
-  \resumeSubItem{ApexDex Interface}
-    {Built automated transaction integrations utilizing system APIs and blockchain SDKs in Python to evaluate decentralised trade executions.}
-  \resumeSubItem{Algorithmic Strategy Engine}
-    {Programmed autonomous trading scripts adjusting to distinct macro trends across financial sandboxes via platform webhooks.}
-  \resumeSubItem{VisionScript Reader}
-    {Constructed alphanumeric vector processing pipelines using spatial segmentation and contour filtering without traditional ML components.}
+  \item \textbf{Languages:} C++, Python, Java, SQL
+  \item \textbf{Web Development:} PHP, JavaScript, HTML, CSS
+  \item \textbf{Technologies:} AWS, Jenkins
 \resumeSubHeadingListEnd
-
-%-----------ACHIEVEMENTS---------------
-\section{Achievements}
-\begin{itemize}[leftmargin=*, itemsep=-2pt]
-  \item \textbf{National Technology Showcase} -- Silver Award for Outstanding Student Enterprise | 2022
-  \item Selected Member, Corporate Cricket Squad competing in Inter-Company Open Leagues | 2022 -- Present
-  \item Represented School First XI Cricket Team as a Senior Athlete | 2012 -- 2016
-  \item Regional Mathematics & Physics Olympiad Invitation -- Merit Rank | 2017
-  \item Media Producer, National Creative Division, Global Student Development Council | 2021 -- 2022
-  \item Elected Officer -- Student Leadership Committee, Academic Institute Association | 2018
-\end{itemize}
 
 %-----------REFERENCES---------------
 % References available upon request.
